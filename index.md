@@ -13,11 +13,3 @@ layout: default
 
 ![Image of fast.ai logo](images/logo.png)
 
-```C++
-// C++ code with syntax highlighting.
-int function() 
-{
-  cout<<"123"<<endl;
-  return 1;
-}
-```
