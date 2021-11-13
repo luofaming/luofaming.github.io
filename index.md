@@ -7,14 +7,16 @@ And you can include links, like this [link to fast.ai](https://www.fast.ai). Pos
 </div>
 
 
-[theme link](https://github.com/pages-themes/architect)
-
-[Link to welcome](./contents/welcome.html).
 
 
 ---
 layout: default
 ---
+
+[theme link](https://github.com/pages-themes/architect)
+
+[Link to welcome](./contents/welcome.html).
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
