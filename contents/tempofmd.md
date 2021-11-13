@@ -199,11 +199,13 @@ print(1+1)
 |-|-|
 | A thing | Another thing |
 
+[back](https://luofaming.github.io/)
+
 ## Footnotes
 
 [^1]: This is the footnote.
 
 
-[back](./)
+
 
 
