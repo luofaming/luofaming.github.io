@@ -14,7 +14,7 @@ layout: default
 ![Image of fast.ai logo](images/logo.png)
 
 ```C++
-// Javascript code with syntax highlighting.
+// C++ code with syntax highlighting.
 int function() 
 {
   cout<<"123"<<endl;
