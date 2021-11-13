@@ -5,13 +5,13 @@
 # If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
-# 
-title: PERSONAL HOMEPAGE
-description: This is where the description of your site will go. You should change it by editing the _config.yml file. It can be as long as you like! Happy blogging... ❤
+
+title: HOMEPAGE
+description: 
 github_username: 
 # jph00
 # Email and twitter are optional:
-email:famluo@163.com
+email: famluo@163.com
 twitter_username:
 
 # Set this to true to get LaTeX math equation support
@@ -44,4 +44,4 @@ kramdown:
   hard_wrap: false
   syntax_highlighter: rouge
 
-theme: jekyll-theme-architect
+# theme: jekyll-theme-architect
