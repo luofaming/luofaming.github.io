@@ -9,6 +9,7 @@ And you can include links, like this [link to fast.ai](https://www.fast.ai). Pos
 
 [theme link](https://github.com/pages-themes/architect)
 
+[Link to welcome](./contents/welcome.html).
 ---
 layout: default
 ---
