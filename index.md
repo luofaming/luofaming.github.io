@@ -2,6 +2,8 @@
 layout: default
 ---
 
+This is my homepage.
+
 # LINK
 
 [Link to the theme](https://github.com/pages-themes/architect).
