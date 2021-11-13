@@ -15,7 +15,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./contents/geant4.html).
+[Link to geant4](./contents/geant4.html).
 
 There should be whitespace between paragraphs.
 
