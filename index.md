@@ -10,13 +10,17 @@ And you can include links, like this [link to fast.ai](https://www.fast.ai). Pos
 [theme link](https://github.com/pages-themes/architect)
 
 [Link to welcome](./contents/welcome.html).
+
+
 ---
 layout: default
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
+
 [Link to geant4](./contents/geant4.html).
+
 
 There should be whitespace between paragraphs.
 
