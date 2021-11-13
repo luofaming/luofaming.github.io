@@ -4,7 +4,7 @@ layout: default
 
 This is my homepage.
 
-# LINK
+# LINKS
 
 [Link to the theme](https://github.com/pages-themes/architect).
 
