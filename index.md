@@ -7,7 +7,7 @@ This is my homepage.
 
 # TIPS
 
-[CERN ROOT](./contents/RootTips.html)
+[Root](./contents/RootTips.html)
 
 [Geant4](./contents/Geant4Tips.html)
 
