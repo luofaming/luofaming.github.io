@@ -8,11 +8,15 @@ CERN ROOT的一些使用笔记
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-## Header 2
+## 如何保存文件
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+```
+TFile* f = TFile::Open("myfile.root","NEW");
+TH1D* h1 = new TH1D("h1","h1",100,-5.,5.);
+h1->FillRandom("gaus");  // fill histogram with random data
+h1->Write();
+delete f;
+```
 
 ### Header 3
 
