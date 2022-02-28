@@ -3,6 +3,7 @@ layout: default
 ---
 
 [返回主页](https://luofaming.github.io/)
+
 关于Linux的一些学习笔记
 
 ## 常用指令
