@@ -10,7 +10,9 @@ This is my homepage.
 
 [Link to the geant4](./contents/geant4.html).
 
-[ROOT Tips](./contents/roottips.html).
+[ROOT Tips](./contents/RootTips.html).
+
+[Linux Tips](./contents/LinuxTips.html).
 
 [Link to templates of markdown](./contents/tempofmd.html).
 
