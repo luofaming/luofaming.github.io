@@ -5,7 +5,7 @@ layout: default
 This is my homepage.
 
 
-# Tips
+# TIPS
 
 [CERN ROOT](./contents/RootTips.html)
 
@@ -14,8 +14,7 @@ This is my homepage.
 [Linux](./contents/LinuxTips.html)
 
 # INSTALL
-Install geant4 and root in Ubuntu.
-[Link to the geant4](./contents/geant4.html)
+[Installing](./contents/geant4.html) geant4 and root in Ubuntu.
 
 # LINKS
 
