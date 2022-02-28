@@ -2,15 +2,7 @@
 layout: default
 ---
 
-Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). 
-
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+CERN ROOT的一些使用笔记
 
 # Header 1
 
