@@ -14,7 +14,7 @@ This is my homepage.
 [Linux](./contents/LinuxTips.html)
 
 # INSTALL
-[Installing](./contents/geant4.html) geant4 and root in Ubuntu.
+[Installing](./contents/install.html) geant4 and root in Ubuntu.
 
 # LINKS
 
