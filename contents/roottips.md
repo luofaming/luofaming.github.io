@@ -16,6 +16,7 @@ TH1D* h1 = new TH1D("h1","h1",100,-5.,5.);
 h1->FillRandom("gaus");  // fill histogram with random data
 h1->Write();
 delete f;
+cout<<"1"<<endl;
 ```
 
 ### Header 3
