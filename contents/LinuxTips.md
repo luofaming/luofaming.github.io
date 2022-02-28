@@ -6,20 +6,17 @@ layout: default
 
 
 ## 常用指令
-### 卸载snap软件
-
+* 卸载snap软件
 ``` bash
 sudo snap remove xxxx
 ```
 
-### 给开权限
-
+* 给开权限
 ``` bash
 chmod 777 xxxx
 ```
 
-### 安装.deb包的软件
-
+* 安装.deb包的软件
 ``` bash
 sudo dpkg -i xxxxx
 ```
