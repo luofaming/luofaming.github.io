@@ -16,7 +16,7 @@ h1->Write();
 delete f;
 ```
 
-### 从一直tree里截取创建root文件
+### 从已知tree里截取数据创建root文件
 
 ``` c++
 TFile *infile  = new TFile("input.root");
