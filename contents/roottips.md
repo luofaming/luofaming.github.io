@@ -8,7 +8,7 @@ layout: default
 
 ### 如何保存文件
 
-```C++
+```C
 TFile* f = TFile::Open("myfile.root","NEW");
 TH1D* h1 = new TH1D("h1","h1",100,-5.,5.);
 h1->FillRandom("gaus");  // fill histogram with random data
@@ -16,9 +16,9 @@ h1->Write();
 delete f;
 ```
 
-### Create new root file with cut from a existing tree
+### 从一直tree里截取创建root文件
 
-```C++
+```C
 TFile *infile  = new TFile("input.root");
 TFile *fout = new TFile("output.root","recreate");
 ((TTree*)infile->Get("tree"))->CopyTree("aoq<3.5&&aoq>3&&zet>49&&zet<51")
