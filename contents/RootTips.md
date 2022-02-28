@@ -6,7 +6,7 @@ layout: default
 
 
 
-### 如何保存文件
+* 如何保存文件
 
 ``` c++
 TFile* f = TFile::Open("myfile.root","NEW");
@@ -16,7 +16,7 @@ h1->Write();
 delete f;
 ```
 
-### 从已知tree里截取数据创建root文件
+* 从已知tree里截取数据创建root文件
 
 ``` c++
 TFile *infile  = new TFile("input.root");
