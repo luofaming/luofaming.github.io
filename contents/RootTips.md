@@ -34,5 +34,9 @@ TMath::Sqrt() #开根号
 TMath::Exp() #指数
 ```
 
-
+* 产生随机数
+``` c++
+TRandom3 *gr = new TRandom3(0); #声明随机数
+Double_t Dr = gr->Uniform(-0.5,0.5);
+```
 
