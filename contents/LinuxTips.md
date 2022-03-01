@@ -23,5 +23,5 @@ sudo dpkg -i xxxxx
 ```
 * 用vscode打开文件
 ``` bash
-code (路径/)文件名
+code (xxx/xxx/)xxx
 ```
