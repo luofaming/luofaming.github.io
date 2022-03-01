@@ -36,7 +36,7 @@ TMath::Exp() #指数
 
 * 产生随机数
 ``` c++
-TRandom3 *gr = new TRandom3(0); #声明随机数
-Double_t Dr = gr->Uniform(-0.5,0.5);
+TRandom3 *gr = new TRandom3(0); //声明随机数
+Double_t Dr = gr->Uniform(-0.5,0.5); //产生-0.5到0.5的随机数
 ```
 
