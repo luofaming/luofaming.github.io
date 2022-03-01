@@ -28,7 +28,11 @@ fout->Write();
 fout->Close();
 ```
 
-
+* 数学运算
+``` bash
+TMath::Sqrt() #开根号
+TMath::Exp() #指数
+```
 
 
 
