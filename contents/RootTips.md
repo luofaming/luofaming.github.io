@@ -6,6 +6,10 @@ layout: default
 
 关于CERN ROOT的一些学习笔记
 
+* 创建文件
+``` c++
+TFile *opf=new TFile("tree.root","recreate");//新文件tree.root，指针 *opf
+```
 
 
 * 如何保存文件
