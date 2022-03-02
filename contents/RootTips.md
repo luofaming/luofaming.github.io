@@ -40,7 +40,16 @@ TMath::Exp() #指数
 
 * 产生随机数
 ``` c++
+TRandom3 class
+Uniform(Double_t x1, Double_t x2);
+Gaus(Double_t mean, Double_t sigma)；
+//
 TRandom3 *gr = new TRandom3(0); //声明随机数
 Double_t Dr = gr->Uniform(-0.5,0.5); //产生-0.5到0.5的随机数
 ```
 
+* 更改坐标轴形式
+``` c++
+c1->SetLogy();//y坐标为log形式
+c1->SetLogy(0);//y坐标为线性形式
+```
