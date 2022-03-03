@@ -11,7 +11,7 @@ layout: default
 sudo apt-get install python3.8-tk #根据实际python版本来
 ```
 
-* 创建文件
+* 输出
 ``` python
 print("123")
 ```
