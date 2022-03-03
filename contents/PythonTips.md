@@ -6,7 +6,12 @@ layout: default
 
 关于Python的一些学习笔记
 
+* 在Linux下编译python是显示ModuleNotFoundError: No module named 'tkinter'时
+``` bash
+sudo apt-get install python3.8-tk #根据实际python版本来
+```
+
 * 创建文件
-``` c++
-TFile *opf=new TFile("tree.root","recreate");//新文件tree.root，指针 *opf
+``` python
+print("123")
 ```
