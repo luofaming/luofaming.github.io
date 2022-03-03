@@ -13,6 +13,10 @@ This is my homepage.
 
 [Linux](./contents/LinuxTips.html)
 
+[C++](./contents/C++Tips.html)
+
+[Python](./contents/PythonTips.html)
+
 # INSTALL
 [Installing](./contents/install.html) geant4 and root in Ubuntu.
 
