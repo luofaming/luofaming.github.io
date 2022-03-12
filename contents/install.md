@@ -11,7 +11,7 @@ Install of geant4 and root on ubuntu 20.04.
 使用方法：将以下代码分别保存到脚本文件，根据官网实际情况修改相应的版本号，然后依次以管理员权限执行。
 
 脚本1：修改镜像源
-``` c++
+``` bash
 if [ `whoami` = "root" ];then 
     echo "当前为root用户，能够执行此脚本！" 
 else 
@@ -40,7 +40,7 @@ fi
 ```
 
 脚本2：apt安装依赖
-``` c++
+``` bash
 if [ `whoami` = "root" ];then 
     echo "当前为root用户，能够执行此脚本！" 
 else 
@@ -103,7 +103,7 @@ fi
 ```
 
 脚本3：pip安装
-``` c++
+``` bash
 if [ `whoami` = "root" ];then 
     echo "当前为root用户，能够执行此脚本！" 
 else 
@@ -131,7 +131,7 @@ fi
 ```
 
 脚本4：geant4安装
-``` c++
+``` bash
 pathinstall="/opt/Geant4"
 filename="geant4.10.07.p02" ##根据自己实际下载的版本修改
 
@@ -209,7 +209,7 @@ echo "如欲启用该版本Geant4请将 source ${pathinstall}/$name/bin/geant4.s
 ```
 
 脚本5：安装root
-``` c++
+``` bash
 filename="root_v6.24.02" #根据实际下载的版本修改
 pathinstall="/opt/ROOT"
 if [ `whoami` = "root" ];then 
