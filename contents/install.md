@@ -2,7 +2,7 @@
 layout: default
 ---
 
-install of geant4 and root on ubuntu 20.04.
+Install of geant4 and root on ubuntu 20.04.
 
 [back](https://luofaming.github.io/)
 
@@ -137,8 +137,6 @@ filename="geant4.10.07.p02" ##根据自己实际下载的版本修改
 
 urllink="http://cern.ch/geant4-data/releases/"
 urllinkdata="http://cern.ch/geant4-data/datasets/"
-
-# ------------------------------------------------------------------------------
 
 if [ `whoami` = "root" ];then 
     echo "当前为root用户，能够执行此脚本！" 
