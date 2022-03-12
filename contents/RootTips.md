@@ -53,3 +53,20 @@ Double_t Dr = gr->Uniform(-0.5,0.5); //产生-0.5到0.5的随机数
 c1->SetLogy();//y坐标为log形式
 c1->SetLogy(0);//y坐标为线性形式
 ```
+
+* ROOT如何生成随机数
+** 方法一：利用TF1,TF2,TF3产生
+随机数满足一定分布，对于连续型随机变量有pdf(概率密度函数)。代码如下：
+``` c++
+TF1 *f1 = new TF1("f1", "x", 0, 10);
+//"x"为一次线性，"x*x"为二次，系数无效
+Double_t  r = f1->GetRandom(); 
+```
+** 利用TRandom以及其派生类
+``` c++
+ TRandom  r;
+ Double_t  x1 = r.Gaus(0,1);//高斯分布mean=0，sigma=1
+ Double_t  x2 = gRandom->Uniform(0,1); //0到1均匀分布
+```
+
+
