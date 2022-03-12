@@ -8,6 +8,8 @@ install of geant4 and root on ubuntu 20.04.
 
 参考至北大物院吴鸿毅博士：https://github.com/wuhongyi/BasicConfiguration
 
+使用方法：将以下代码分别保存到脚本文件，根据官网实际情况修改相应的版本号，然后依次以管理员权限执行。
+
 * 脚本1：修改镜像源
 ``` bash
 if [ `whoami` = "root" ];then 
