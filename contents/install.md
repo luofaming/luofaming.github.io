@@ -40,7 +40,7 @@ fi
 ```
 
 * 脚本2：apt安装依赖
-``` bash
+``` c++
 if [ `whoami` = "root" ];then 
     echo "当前为root用户，能够执行此脚本！" 
 else 
