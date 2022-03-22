@@ -27,7 +27,7 @@ code (xxx/xxx/)xxx
 ```
 
 
-* tar压缩与解压缩
+* tar.gz压缩与解压缩
 ``` bash
 # 解压
 tar -zxvf FileName.tar.gz
