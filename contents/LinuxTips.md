@@ -25,3 +25,12 @@ sudo dpkg -i xxxxx
 ``` bash
 code (xxx/xxx/)xxx
 ```
+
+
+* tar压缩与解压缩
+``` bash
+# 解压
+tar -zxvf FileName.tar.gz
+# 压缩
+tar -zcvf FileName.tar.gz DirName
+```
