@@ -26,3 +26,8 @@ c=a.rstrip()
 #左右都删除
 d=a.strip()
 ```
+
+* python可以同时给多个变量赋值
+``` python
+x,y,z = 0,0,0
+```
