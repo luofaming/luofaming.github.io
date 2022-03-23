@@ -16,7 +16,7 @@ sudo apt-get install python3.8-tk #根据实际python版本来
 print("123")
 ```
 
-* 删除字符串后空格
+* 删除字符串前后空格
 ``` python
 a=" 123 "
 #删除左边空格
