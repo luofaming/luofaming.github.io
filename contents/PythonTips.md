@@ -15,3 +15,14 @@ sudo apt-get install python3.8-tk #根据实际python版本来
 ``` python
 print("123")
 ```
+
+* 删除字符串后空格
+``` python
+a=" 123 "
+#删除左边空格
+b=a.lstrip()
+#删除右边空格
+c=a.rstrip()
+#左右都删除
+d=a.strip()
+```
