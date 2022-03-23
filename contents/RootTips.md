@@ -50,7 +50,7 @@ Gaus(Double_t mean, Double_t sigma)；
 TRandom3 *gr = new TRandom3(0); //声明随机数
 Double_t Dr = gr->Uniform(-0.5,0.5); //产生-0.5到0.5的随机数
 /***************************************/
-TRandom  r;
+TRandom r;
 Double_t  x1 = r.Gaus(0,1);//高斯分布mean=0，sigma=1
 /**************************************/
 TF1 *f1 = new TF1("f1", "x", 0, 10);
