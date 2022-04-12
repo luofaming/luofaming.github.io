@@ -7,7 +7,7 @@ layout: default
 
 
 * 定义材料
-Material Database)官网https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/html/Appendix/materialNames.html#g4matrdb
+
 ``` c++
 void MyDetectorConstruction::DefineMaterials()
 { 
@@ -19,7 +19,8 @@ void MyDetectorConstruction::DefineMaterials()
 
     //在这里先定义所有可能用到的材料Get nist material manager
     G4NistManager* nist = G4NistManager::Instance();
-    //调用G4自身定义好的材料 
+    //调用G4自身定义好的材料Material Database
+    //官网https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/html/Appendix/materialNames.html#g4matrdb
     nist->FindOrBuildMaterial("G4_Ge");//1-98号元素都有
     nist->FindOrBuildMaterial("G4_lH2");//液氢
     nist->FindOrBuildMaterial("G4_lN2");//液氮
