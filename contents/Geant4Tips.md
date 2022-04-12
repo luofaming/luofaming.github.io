@@ -7,7 +7,7 @@ layout: default
 
 
 * 定义材料
-
+Material Database)官网https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/html/Appendix/materialNames.html#g4matrdb
 ``` c++
 void MyDetectorConstruction::DefineMaterials()
 { 
@@ -19,8 +19,7 @@ void MyDetectorConstruction::DefineMaterials()
 
     //在这里先定义所有可能用到的材料Get nist material manager
     G4NistManager* nist = G4NistManager::Instance();
-    //调用G4自身定义好的材料 (Material Database) 
-    //官网https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/html/Appendix/materialNames.html#g4matrdb
+    //调用G4自身定义好的材料 
     nist->FindOrBuildMaterial("G4_Ge");//1-98号元素都有
     nist->FindOrBuildMaterial("G4_lH2");//液氢
     nist->FindOrBuildMaterial("G4_lN2");//液氮
@@ -111,9 +110,7 @@ void MyDetectorConstruction::DefineMaterials()
     HEU4568->AddIsotope(U5,0.9315);
     HEU4568->AddIsotope(U6,0.0024);
     HEU4568->AddIsotope(U8,0.0564);
-    
     //---------------------------------------------------------------------------------
-
     //Scintillator(BC408) 塑闪 
     G4Material* BC408 = new G4Material("BC408", 1.032*g/cm3, 2);
     BC408->AddElement(H, 11);BC408->AddElement(C, 10);
