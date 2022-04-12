@@ -12,11 +12,6 @@ layout: default
 void MyDetectorConstruction::DefineMaterials()
 { 
     // Lead material defined using NIST Manager
-    auto nistManager1 = G4NistManager::Instance();
-    nistManager1->FindOrBuildMaterial("G4_WATER");
-    auto nistManager2 = G4NistManager::Instance();
-    nistManager2->FindOrBuildMaterial("G4_AIR");
-
     //在这里先定义所有可能用到的材料Get nist material manager
     G4NistManager* nist = G4NistManager::Instance();
     //调用G4自身定义好的材料Material Database
