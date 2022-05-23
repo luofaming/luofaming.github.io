@@ -34,3 +34,8 @@ tar -zxvf FileName.tar.gz
 # 压缩
 tar -zcvf FileName.tar.gz DirName
 ```
+
+* rpm安装
+``` bash
+rpm -ivh xxx.rpm
+```
